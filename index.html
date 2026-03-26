@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kipas Private Info | Situs Resmi</title>
+    <meta name="description" content="Download Kipas Private Server versi terbaru. Buka semua item premium, uang tak terbatas, dukungan rank, dan fitur kustom. Private Server No.1 untuk Game Action.">
+    <meta name="keywords" content="kipas server, private server, game mod apk, uang unlimited, mod menu, game panel, android mod">
+    <meta name="author" content="Kipas Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ffkipas.my.id/">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        tech: ['Rajdhani', 'sans-serif'],
+                    },
+                    colors: {
+                        kps: {
+                            main: '#0f172a',
+                            panel: '#1e293b',
+                            border: '#334155',
+                            blue: '#2563eb',
+                            cyan: '#06b6d4',
+                            glow: 'rgba(6, 182, 212, 0.15)'
+                        }
+                    },
+                    backgroundImage: {
+                        'gradient-kps': 'linear-gradient(135deg, #2563eb 0%, #06b6d4 100%)',
+                        'gradient-text': 'linear-gradient(to right, #60a5fa, #22d3ee)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .bg-grid {
+            background-size: 40px 40px;
+            background-image: linear-gradient(to right, #1e293b 1px, transparent 1px), linear-gradient(to bottom, #1e293b 1px, transparent 1px);
+            mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+        }
+        .hover-glow:hover {
+            box-shadow: 0 0 25px rgba(37, 99, 235, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-kps-main text-slate-300 font-sans selection:bg-kps-cyan selection:text-white">
+    <div class="fixed inset-0 bg-grid -z-10 pointer-events-none opacity-30"></div>
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 top-0 bg-kps-main/90 backdrop-blur-md border-b border-kps-border/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-3">
+                    <img src="image.png" alt="Logo Server" class="h-10 w-auto rounded" onerror="this.src='https://placehold.co/100x100/2563eb/white?text=KPS'">
+                    <span class="font-tech font-bold text-xl md:text-2xl tracking-widest text-white">
+                        KIPAS <span class="text-transparent bg-clip-text bg-gradient-text">SERVER</span>
+                    </span>
+                </div>
+
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#home" class="text-slate-400 hover:text-kps-cyan text-sm font-semibold transition uppercase">Beranda</a>
+                    <a href="#features" class="text-slate-400 hover:text-kps-cyan text-sm font-semibold transition uppercase">Fitur</a>
+                    <div class="flex gap-4 ml-4">
+                        <a href="https://ffkipas.my.id/verifyuid" class="border border-kps-border bg-kps-panel px-5 py-2 text-sm font-bold rounded hover:border-kps-cyan hover:text-kps-cyan transition" aria-label="Verifikasi User ID">
+                            VERIFIKASI ID
+                        </a>
+                        <a href="https://ffkipas.my.id/panel/" class="bg-white text-kps-main px-5 py-2 text-sm font-bold rounded hover:bg-kps-cyan hover:text-white transition" aria-label="Panel Akun">
+                            PANEL
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white hover:text-kps-cyan" aria-label="Buka Menu">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-kps-panel border-b border-kps-border">
+            <div class="px-4 py-4 space-y-3">
+                <a href="https://ffkipas.my.id/verifyuid" class="block text-slate-300 hover:text-kps-cyan font-bold">VERIFIKASI ID</a>
+                <a href="https://ffkipas.my.id/panel/" class="block text-slate-300 hover:text-kps-cyan font-bold">PANEL AKUN</a>
+                <a href="download.html" class="block text-kps-cyan font-bold">DOWNLOAD APK</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 px-4 text-center max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-kps-panel border border-kps-border">
+                <span class="relative flex h-3 w-3">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                </span>
+                <span class="text-xs font-bold text-slate-300 tracking-wider">STATUS: <span class="text-emerald-400">ONLINE</span></span>
+            </div>
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-kps-panel border border-kps-border">
+                <i class="fas fa-code-branch text-kps-cyan text-xs"></i>
+                <span class="text-xs font-bold text-slate-300 tracking-wider">VER: <span class="text-white">2.118.12</span></span>
+            </div>
+        </div>
+
+        <h1 class="font-tech text-4xl md:text-7xl font-bold uppercase leading-none tracking-tighter mb-6 text-white">
+            KIPAS <span class="text-transparent bg-clip-text bg-gradient-kps">PRIVATE SERVER</span>
+        </h1>
+
+        <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+            Download <strong>Private Server APK</strong> terbaru. Pengalaman modded terbaik dengan resource tak terbatas, ranking kompetitif, dan perlindungan anti-ban premium.
+        </p>
+
+        <div class="flex flex-col md:flex-row justify-center gap-4 w-full md:w-auto flex-wrap">
+            <a href="download.html" class="group relative bg-gradient-kps text-white px-8 py-4 rounded font-bold text-lg hover:shadow-[0_0_30px_rgba(6,182,212,0.4)] transition-all w-full md:w-auto flex items-center justify-center gap-2 shadow-lg">
+                <i class="fas fa-download"></i>
+                <span>DOWNLOAD APK</span>
+                <span class="text-xs font-normal opacity-70 ml-1 text-blue-100">(441 MB)</span>
+            </a>
+            
+            <!-- Tombol Join WhatsApp -->
+            <button onclick="showWAOverlay()" 
+                    class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded font-bold text-lg transition-all w-full md:w-auto flex items-center justify-center gap-2 shadow-lg">
+                <i class="fab fa-whatsapp text-xl"></i>
+                <span>JOIN SALURAN MAS ADEN</span>
+            </button>
+
+            <a href="https://ffkipas.my.id/verifyuid" class="bg-kps-panel border border-kps-border text-white px-8 py-4 rounded font-bold text-lg hover:border-kps-cyan hover:text-kps-cyan transition-all w-full md:w-auto flex items-center justify-center gap-2">
+                <i class="fas fa-id-badge"></i>
+                <span>VERIFIKASI ID</span>
+            </a>
+            <a href="https://ffkipas.my.id/panel/" class="bg-kps-panel border border-kps-border text-white px-8 py-4 rounded font-bold text-lg hover:border-kps-cyan hover:text-kps-cyan transition-all w-full md:w-auto flex items-center justify-center gap-2">
+                <i class="fas fa-user-circle"></i>
+                <span>AKSES PANEL</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section class="border-y border-kps-border bg-kps-panel/30 backdrop-blur">
+        <div class="max-w-7xl mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 divide-y md:divide-y-0 md:divide-x divide-kps-border">
+                <div class="text-center px-4">
+                    <div class="text-slate-500 text-sm font-bold uppercase tracking-widest mb-1">Anggota Komunitas</div>
+                    <div class="font-tech text-5xl font-bold text-white flex justify-center gap-2">60K+</div>
+                </div>
+                <div class="text-center px-4 py-4 md:py-0">
+                    <div class="text-slate-500 text-sm font-bold uppercase tracking-widest mb-1">Item Premium</div>
+                    <div class="font-tech text-5xl font-bold text-white">2K+</div>
+                </div>
+                <div class="text-center px-4 py-4 md:py-0">
+                    <div class="text-slate-500 text-sm font-bold uppercase tracking-widest mb-1">Dukungan Rank</div>
+                    <div class="font-tech text-5xl font-bold text-kps-cyan">MAKSIMAL</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-left mb-12">
+                <h2 class="font-tech text-4xl font-bold text-white mb-2">FITUR <span class="text-kps-cyan">SERVER</span></h2>
+                <div class="h-1 w-20 bg-gradient-kps"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="p-8 bg-kps-panel border border-kps-border hover-glow hover:border-blue-500 transition duration-300 rounded-sm">
+                    <i class="fab fa-facebook text-4xl text-blue-500 mb-6"></i>
+                    <h3 class="text-xl font-bold text-white mb-3">Login Sosial</h3>
+                    <p class="text-slate-400">Masuk dengan mudah menggunakan akun sosial Anda di Private Server kami.</p>
+                </div>
+                <div class="p-8 bg-kps-panel border border-kps-border hover-glow hover:border-kps-cyan transition duration-300 rounded-sm">
+                    <i class="fas fa-globe text-4xl text-kps-cyan mb-6"></i>
+                    <h3 class="text-xl font-bold text-white mb-3">Terlihat Secara Global</h3>
+                    <p class="text-slate-400">Outfit dan efek kustom Anda terlihat oleh pemain lain di seluruh dunia.</p>
+                </div>
+                <div class="p-8 bg-kps-panel border border-kps-border hover-glow hover:border-red-500 transition duration-300 rounded-sm">
+                    <i class="fas fa-trophy text-4xl text-red-500 mb-6"></i>
+                    <h3 class="text-xl font-bold text-white mb-3">Rank Kompetitif</h3>
+                    <p class="text-slate-400">Mainkan pertandingan rank kompetitif dan naik ke tier tertinggi dengan mudah.</p>
+                </div>
+            </div>
+
+            <div class="bg-kps-panel border border-kps-border rounded-sm p-8">
+                <h3 class="text-lg font-bold text-white mb-6 uppercase tracking-wider border-b border-kps-border pb-4">Kemampuan Lengkap</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8">
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Mata uang bisa digunakan di toko </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Beli Premium Pass </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Toko & Hadiah Kustom </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Edit Statistik Akun </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> ID & Nama Panggilan Kustom </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Jumlah Like Kustom </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Ubah Tanggal Pembuatan Akun </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Buka Senjata Ultimate </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Bagikan Set Eksklusif </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Sistem Sosial </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Sistem Mail Kustom </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Server Cepat & Anti Lag </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Inventory Kustom </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Level Akun MAX </div>
+                    <div class="flex items-center gap-3 text-slate-300"> <i class="fas fa-check text-kps-cyan text-sm"></i> Rank Teratas Palsu </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-kps-border py-12">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3">
+                <img src="ffkipas.svg" alt="Logo Server" class="h-8 w-auto grayscale opacity-50">
+                <span class="text-slate-400 font-bold tracking-wider">KIPAS PRIVATE SERVER</span>
+            </div>
+            <div class="flex gap-8 text-sm font-semibold text-slate-500">
+                <a href="download.html" class="hover:text-white transition">DOWNLOAD</a>
+                <a href="https://ffkipas.my.id/panel/" class="hover:text-white transition">PANEL</a>
+                <a href="https://ffkipas.my.id/verifyuid" class="hover:text-white transition">VERIFIKASI</a>
+            </div>
+            <div class="text-slate-600 text-sm">
+                &copy; 2025 Kipas Private Server. Hak cipta dilindungi.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ====================== WHATSAPP OVERLAY MAS ADEN ====================== -->
+    <div id="wa-overlay" class="fixed inset-0 bg-black/90 flex items-center justify-center z-[9999] hidden">
+        <div class="bg-kps-panel border-2 border-emerald-500 rounded-3xl max-w-md w-full mx-4 overflow-hidden shadow-2xl">
+            <!-- Header -->
+            <div class="bg-gradient-to-r from-emerald-500 to-green-600 px-8 py-6 flex items-center gap-4">
+                <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-4xl shadow-md">
+                    📢
+                </div>
+                <div class="text-white">
+                    <h2 class="font-bold text-2xl">MAS ADEN</h2>
+                    <p class="text-emerald-100 text-sm tracking-wide">Saluran Resmi WhatsApp</p>
+                </div>
+            </div>
+
+            <!-- Body -->
+            <div class="p-8 text-center">
+                <p class="text-slate-200 text-lg mb-6 leading-relaxed">
+                    Bergabung dengan saluran <strong class="text-white">MAS ADEN</strong> untuk mendapatkan update terbaru, link download aman, dan info penting lainnya.
+                </p>
+
+                <div class="bg-kps-main/50 border border-kps-border rounded-2xl p-5 mb-8 text-left text-sm">
+                    <div class="flex items-center gap-3 mb-3 text-emerald-400">
+                        <i class="fas fa-check-circle"></i>
+                        <span class="font-medium">Update link download terbaru</span>
+                    </div>
+                    <div class="flex items-center gap-3 mb-3 text-emerald-400">
+                        <i class="fas fa-check-circle"></i>
+                        <span class="font-medium">Pengumuman maintenance & event</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-emerald-400">
+                        <i class="fas fa-check-circle"></i>
+                        <span class="font-medium">Kode redeem & giveaway khusus</span>
+                    </div>
+                </div>
+
+                <a href="https://www.whatsapp.com/channel/0029VbCUgnd0lwgn1PBJo11Z" 
+                   id="join-wa-btn"
+                   target="_blank"
+                   class="block w-full bg-green-500 hover:bg-green-600 active:bg-green-700 transition-all duration-200 text-white font-bold text-lg py-5 rounded-2xl flex items-center justify-center gap-3 shadow-lg">
+                    <i class="fab fa-whatsapp text-3xl"></i>
+                    <span>GABUNG SALURAN MAS ADEN</span>
+                </a>
+
+                <button onclick="closeWAOverlay()" 
+                        class="mt-6 text-slate-400 hover:text-slate-300 transition text-sm font-medium">
+                    Tutup untuk sekarang
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menu
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+
+        // Tampilkan Overlay WhatsApp
+        function showWAOverlay() {
+            const overlay = document.getElementById('wa-overlay');
+            overlay.classList.remove('hidden');
+            overlay.classList.add('flex');
+        }
+
+        // Tutup Overlay
+        function closeWAOverlay() {
+            const overlay = document.getElementById('wa-overlay');
+            overlay.classList.add('hidden');
+            overlay.classList.remove('flex');
+        }
+
+        // Otomatis tutup overlay setelah klik tombol GABUNG
+        document.getElementById('join-wa-btn').addEventListener('click', function() {
+            setTimeout(() => {
+                closeWAOverlay();
+            }, 700);
+        });
+
+        // Service Worker
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/sw.js", { scope: "/" });
+        }
+    </script>
+</body>
+</html>
